@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { QRCodeSVG } from "qrcode.react";// Import the QR code component
+import { QRCodeSVG } from "qrcode.react"; // Import the QR code component
 import "./App.css";
 
 const Home = () => (
@@ -12,10 +12,10 @@ const Home = () => (
       <Link to="/verify" className="verify-btn">
         VERIFY PRODUCT
       </Link>
-      <div className="qr-section">
+      {/* <div className="qr-section">
         <h3>Scan the QR Code to visit our website:</h3>
-      <QRCodeSVG value="https://reactjs.org/" />,
-      </div>
+        <QRCodeSVG value="https://st-dalfour-virid.vercel.app/" />,
+      </div> */}
     </div>
   </div>
 );
@@ -47,7 +47,6 @@ const Arabic = () => (
     <h1>Under Maintenance</h1>
   </div>
 );
-
 
 const App = () => (
   <Router>

@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-  height: 90vh;
+  height: 100vh;
   background: url('./assets/images/cover_bg_1.png') no-repeat center center/cover; /* Full cover image */
   display: flex;
   justify-content: center;
