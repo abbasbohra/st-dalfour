@@ -1,0 +1,67 @@
+.header-container {
+  background: linear-gradient(135deg, #89a8b2, #b3c8cf, #e5e1da, #f1f0e8);
+  color: #333;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(1, 44, 89, 0.8); /* Slightly transparent navy blue */
+  padding: 50px 50px;
+  color: white;
+  position: relative; /* Keeps the navbar fixed at the top */
+  width: 100%; /* Ensures the navbar spans the entire width */
+  z-index: 900; /* Ensures it stays on top of other elements */
+  backdrop-filter: blur(5px); /* Adds a glass-like blur effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better contrast */
+  box-sizing: border-box;
+  float: left;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  white-space: nowrap; /* Prevents text from breaking within links */
+}
+.brand {
+  display: flex;
+  /* align-items: center; */
+  gap: 60px;
+}
+
+.brand img {
+  width: 120px;
+  height: 120px;
+  margin: 0px 20px;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap; /* Allows the links to wrap on smaller screens */
+    gap: 10px;
+    width: 100%; /* Ensure links take the full width */
+    justify-content: flex-start; /* Align links to the left */
+  }
+
+  .nav-links a {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}

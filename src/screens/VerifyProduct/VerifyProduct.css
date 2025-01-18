@@ -1,0 +1,16 @@
+.page-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbdbed; /* Navy background color */
+  color: white;
+  text-align: center;
+}
+
+.page-name {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #0e0d0d; /* Light khaki color for the page name */
+}

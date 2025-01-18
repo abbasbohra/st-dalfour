@@ -1,0 +1,124 @@
+/* General Container */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  font-family: Arial, sans-serif;
+  gap: 20px;
+}
+
+/* Live Chat Section */
+.live-chat {
+  width: 25%;
+  margin-top: 150px;
+}
+
+.live-chat h2 {
+  color: #002a4c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  background-color: #002a4c;
+  color: #ffffff;
+  padding:40px;
+  border-radius: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.chat-box h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chat-box p {
+  margin: 0 0 20px 0;
+  font-size: 1rem;
+}
+
+.chat-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.chat-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.chat-box button:hover {
+  background-color: #45a049;
+}
+
+.live-chat-footer {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #4caf50;
+}
+
+.live-chat-footer a {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.live-chat-footer a:hover {
+  text-decoration: underline;
+}
+
+/* More Info Section */
+.more-info {
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.more-info h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.more-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more-info li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.more-info li::before {
+  content: "•";
+  color: #002a4c;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
